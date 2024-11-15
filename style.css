@@ -1,0 +1,47 @@
+body{
+    background-color:black;
+    color: aliceblue;
+    text-align:center;
+    font-weight: bold;
+    padding: 0cap;
+    margin-inline-start:auto ;
+
+}
+img {
+    width: 130px;          /* Adjust as per your desired size */
+    height: 150px;         /* Ensures image is square */
+    border-radius: 50%;    /* Makes the image circular */
+    object-fit: cover;     /* Ensures the image covers the container */
+    display: block;
+    margin: 20px auto;     /* Centers the image */
+}
+#Skills {
+    display: block; /* Initially visible */
+}
+
+.togglebutton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.togglebutton:hover {
+    background-color: #45a049;
+}
+
+
+
+div{
+    padding: 5px;
+    margin: 10px;
+    color: aquamarine;
+    
+}
+h2{
+    color: indigo;
+    font-size: bold;
+}
